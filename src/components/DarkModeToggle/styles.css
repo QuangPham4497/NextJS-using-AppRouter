@@ -1,0 +1,12 @@
+/* styles.css */
+.dark {
+  /* Định nghĩa các thuộc tính CSS cho Dark Mode */
+  background-color: #1f2937;
+  color: #ffffff;
+}
+
+.light {
+  /* Định nghĩa các thuộc tính CSS cho Light Mode */
+  background-color: #ffffff;
+  color: #000000;
+}
