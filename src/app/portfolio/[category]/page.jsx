@@ -7,7 +7,7 @@ import React from "react";
 const Category = ({ params }) => {
   return (
     <div>
-      <h1 className="text-orange-500 font-bold">{params.category}</h1>
+      <h1 className="text-orange-500 font-bold uppercase">{params.category}</h1>
       <div className="items">
         <div className="flex gap-12 mt-12 mb-20 item">
           <div className="flex-1 flex flex-col gap-5 justify-center">
@@ -17,7 +17,7 @@ const Category = ({ params }) => {
           </div>
           <div className="flex-1 h-[30rem] w-auto relative">
             <Image
-              src="/websites.jpg"
+              src="/foodanddrink.jpeg"
               fill={true}
               alt=""
               className="object-cover"
@@ -32,7 +32,7 @@ const Category = ({ params }) => {
           </div>
           <div className="flex-1 h-[30rem] w-auto relative">
             <Image
-              src="/websites.jpg"
+              src="/foodanddrink.jpeg"
               fill={true}
               alt=""
               className="object-cover"
@@ -47,7 +47,7 @@ const Category = ({ params }) => {
           </div>
           <div className="flex-1 h-[30rem] w-auto relative">
             <Image
-              src="/websites.jpg"
+              src="/foodanddrink.jpeg"
               fill={true}
               alt=""
               className="object-cover"
@@ -62,7 +62,7 @@ const Category = ({ params }) => {
           </div>
           <div className="flex-1 h-[30rem] w-auto relative">
             <Image
-              src="/websites.jpg"
+              src="/foodanddrink.jpeg"
               fill={true}
               alt=""
               className="object-cover"

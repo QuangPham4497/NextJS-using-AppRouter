@@ -13,7 +13,7 @@ const Portfolio = () => {
           className="border-4 border-solid border-orange-400 w-72 h-72 relative hover:text-orange-500"
         >
           <Image
-            src="/illustration.png"
+            src="/foodcate.jpeg"
             fill={true}
             alt=""
             className="object-cover "
@@ -28,7 +28,7 @@ const Portfolio = () => {
           className="border-4 border-solid border-orange-400 w-72 h-72 relative hover:text-orange-500"
         >
           <Image
-            src="/websites.jpg"
+            src="/drinkcate.jpeg"
             fill={true}
             alt=""
             className="object-cover "
